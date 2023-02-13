@@ -11,5 +11,7 @@
     width:100%;
     background:#999;
  } 
- 
- 
+ .card{
+    border: 1px solid black;
+    margin: 10px;
+ }
