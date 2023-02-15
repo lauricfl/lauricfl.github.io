@@ -15,3 +15,33 @@
     border: 1px solid black;
     margin: 10px;
  }
+ @media (max-width: 576px) {
+    .card  img{
+        display: none;
+    }
+    .card a {
+        display: none;
+    }
+    .img-src{
+        display: block;
+    }
+    
+    /* Crear otro enlace con imagen y ocultarlo en los otros metodos? */
+}
+@media (min-width: 576px) and (max-width: 768px){
+    .card{
+        
+    }
+    .img-src{
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    .card{
+        
+    }
+ .img-src{
+        display: none;
+    } 
+    
+}
