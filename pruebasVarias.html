@@ -1,31 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./lib/css/bootstrap.min.css" />
-        <script src="./libs/js/bootstrap.min.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./lib/css/bootstrap.min.css" />
+    <script src="./libs/js/bootstrap.min.js"></script>
 
-        <title>Contacto - Proyecto DIW</title>
-      </head>
-<body>
-  <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">An item</li>
-      <li class="list-group-item">A second item</li>
-      <li class="list-group-item">A third item</li>
-    </ul>
-    <div class="card-body">
-      <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a>
-    </div>
-  </div>
+    <title>Contacto - Proyecto DIW</title>
+  </head>
+  <body>
+    <!--
 
-</body>
+quiero una card de bootstrap con una imagen, un titulo, una descripcion y un boton. Cuando el tamaño de la pantalla sea pequeño, la card tiene que ser vertical, la imagen estar abajo y desaparecer el boton. cuando el tamaño de la pantalla sea mediano, la card tiene que ser horizontal con la imagen a la izquierda. Cuando la pantalla sea grande, la card tiene que ser vertical y con la imagen arriba
+
+  -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-12">
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-md-4 d-md-block d-lg-none">
+                <img
+                  src="https://via.placeholder.com/300x200"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Título de la tarjeta</h5>
+                  <p class="card-text">Descripción de la tarjeta.</p>
+                  <a href="#" class="btn btn-primary d-md-none">Botón</a>
+                </div>
+              </div>
+              <div class="col-md-4 d-none d-md-block">
+                <img
+                  src="https://via.placeholder.com/300x200"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="card-footer d-none d-md-block">
+              <a href="#" class="btn btn-primary">Botón</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

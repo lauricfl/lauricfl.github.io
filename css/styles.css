@@ -15,33 +15,70 @@
     border: 1px solid black;
     margin: 10px;
  }
- @media (max-width: 576px) {
-    .card  img{
+
+/*MUUUY PEQUEÑO*/
+@media (max-width:576px){
+    .btn-primary{
         display: none;
     }
-    .card a {
-        display: none;
-    }
-    .img-src{
-        display: block;
-    }
-    
-    /* Crear otro enlace con imagen y ocultarlo en los otros metodos? */
-}
-@media (min-width: 576px) and (max-width: 768px){
-    .card{
-        
-    }
-    .img-src{
-        display: none;
-    }
-}
-@media (max-width: 992px) {
-    .card{
-        
-    }
- .img-src{
+    .arriba {
         display: none;
     } 
+}
+/*PEQUEÑO*/
+@media (min-width: 576px) and (max-width:768px)
+{
+   .btn-primary{
+        display: none;
+    }
+    .arriba {
+        display: none;
+    }
+
+}
+/*MEDIANO*/
+@media (min-width: 769px) and (max-width:992px) { 
+    .arriba{
+        width: auto;
+      }
+    
+    .abajo{
+        display: none;
+    }
+    .order-md-1 {
+        order: 1;
+      }
+      .order-md-2 {
+        order: 2;
+      }
+}
+
+/*GRANDE*/
+
+@media (min-width: 992px) { 
+
+  .abajo{
+        display: none;
+    }   
+}
+
+
+
+
+
+
+
+
+
+/* 
+@media (max-width: 992px) {
+    
+ 
     
 }
+
+@media (min-width:992px){
+    .abajo{
+        display: none;
+    }
+} */
