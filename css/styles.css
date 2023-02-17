@@ -1,6 +1,6 @@
 .logo{
     width: 20%;
-    
+    margin-left: 1vw;
 }
 
 #footer {
@@ -11,6 +11,47 @@
     width:100%;
     background:#999;
  } 
+
+ .bg-image {
+    background-image: url('../assets/images/fondo.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content p {
+    font-size: 1.5rem;
+  }
+  
+  .content-section {
+    height: 1000px;
+  }
  .card{
     border: 1px solid black;
     margin: 10px;
