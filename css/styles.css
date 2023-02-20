@@ -2,6 +2,9 @@
     width: 20%;
     margin-left: 1vw;
 }
+.imgTarjeta{
+    width: 50%;
+}
 
 #footer {
     position:fixed;
@@ -114,7 +117,7 @@
     }
     .arriba {
         display: none;
-    } 
+    }     
 }
 /*PEQUEÑO*/
 @media (min-width: 576px) and (max-width:768px)
@@ -125,6 +128,7 @@
     .arriba {
         display: none;
     }
+   
 
 }
 /*MEDIANO*/
@@ -142,6 +146,7 @@
       .order-md-2 {
         order: 2;
       }
+     
 }
 
 /*GRANDE*/
