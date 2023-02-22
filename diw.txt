@@ -1,0 +1,4 @@
+El menú de navegación:
+Este debe ser visible en todo momento e inicialmente debe estar superpuesto a una imagen
+situada en la parte superior de la página.
+
