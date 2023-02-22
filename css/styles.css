@@ -109,6 +109,7 @@
 }
 /*MUUUY PEQUEÑO*/
 @media (max-width:576px){
+ 
     
     .btn-primary{
         display: none;
@@ -149,7 +150,10 @@
  
  } */
 /*MEDIANO*/
-@media (min-width: 576px) and (max-width:992px) { 
+@media (min-width: 576px) and (max-width:992px) {
+  .seccion1{
+    grid-template-columns: repeat(2, 1fr);
+} 
     .arriba{
         width: auto;
       }
@@ -169,7 +173,9 @@
 /*GRANDE*/
 
 @media (min-width: 992px) { 
-
+  .seccion1{
+    grid-template-columns: repeat(2, 1fr);
+}
   .abajo{
         display: none;
     }   
