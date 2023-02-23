@@ -169,7 +169,9 @@ margin: auto;
   .abajo {
     display: none;
   }
-
+  .card-text{
+    display: none;
+  }
 }
 
 /*GRANDE*/
@@ -181,4 +183,5 @@ margin: auto;
   .abajo {
     display: none;
   }
+  
 }
